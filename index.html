@@ -2,175 +2,134 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Hao Qi | Personal Website</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <meta name="description" content="Hao Qi's academic homepage. Research Assistant at Rice University. Focused on machine learning, biostatistics, and time series.">
-  <meta name="keywords" content="Hao Qi, Rice University, Statistics, Machine Learning, Biostatistics, Time Series, Personal Website, Academic Homepage">
+  <title>Hao Qi | Academic Homepage</title>
+  <meta name="description" content="Hao Qi is a Ph.D. student in Applied Mathematics (Statistics) at UNC Charlotte, working on statistical learning, time series, and biomedical data.">
   <meta name="author" content="Hao Qi">
-
-  <link rel="icon" href="Hao%20Qi%20ID.JPG" type="image/jpeg">
-  
-  <style>
-    
-    body {
-    font-family: "Helvetica Neue", sans-serif;
-    background: url("Rice.png") no-repeat center center fixed;
-    background-size: cover;
-    color: #333;
-    margin: 0;
-    padding: 0;
+  <meta name="theme-color" content="#fbfaf7">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://qih33333.github.io/">
+  <meta property="og:title" content="Hao Qi | Academic Homepage">
+  <meta property="og:description" content="Ph.D. student in Applied Mathematics (Statistics) at UNC Charlotte.">
+  <link rel="icon" href="profile.jpg" type="image/jpeg">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Hao Qi",
+    "url": "https://qih33333.github.io/",
+    "image": "https://qih33333.github.io/profile.jpg",
+    "email": "mailto:hqi1@charlotte.edu",
+    "jobTitle": "Ph.D. Student in Applied Mathematics (Statistics)",
+    "affiliation": {"@type": "CollegeOrUniversity", "name": "University of North Carolina at Charlotte"},
+    "sameAs": ["https://github.com/qih33333", "https://www.linkedin.com/in/hao-qi-rice333/"]
   }
-
-    header,
-  section {
-    background-color: rgba(255, 255, 255, 0.85);
-    border-radius: 8px;
-    padding: 20px;
-    margin: 20px;
-  }
-
-
-    header {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background-color: #2c3e50;
-      color: white;
-      padding: 40px 20px;
-    }
-
-    .avatar {
-      width: 100px;
-      height: 100px;
-      border-radius: 50%;
-      object-fit: cover;
-      margin-right: 20px;
-      border: 2px solid white;
-      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    }
-
-    .header-content {
-      text-align: left;
-    }
-
-    .header-content h1 {
-      margin: 0;
-      font-size: 2.5em;
-    }
-
-    .header-content p {
-      margin: 5px 0 0;
-      font-size: 1.1em;
-    }
-
-    .header-content nav {
-      margin-top: 15px;
-    }
-
-    nav a {
-      margin: 0 10px;
-      color: #3498db;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    section {
-      max-width: 800px;
-      margin: 40px auto;
-      padding: 0 20px;
-    }
-
-    h2 {
-      color: #2c3e50;
-    }
-
-    .projects {
-      list-style: none;
-      padding: 0;
-    }
-
-    .projects li {
-      background: #fff;
-      margin: 10px 0;
-      padding: 15px;
-      border-left: 5px solid #3498db;
-      box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
-    }
-
-    footer {
-      text-align: center;
-      font-size: 0.9em;
-      color: #999;
-      padding: 30px;
-      margin-top: 40px;
-    }
-  </style>
+  </script>
 </head>
 <body>
-
-  <header>
-    <img src="Hao%20Qi%20ID.JPG" alt="Hao Qi Avatar" class="avatar">
-    <div class="header-content">
-      <h1>Hao Qi</h1>
-      <p>Research Assistant @ Rice University</p>
-      <nav>
-        <a href="mailto:hq15@rice.edu">Email</a>
-        <a href="https://github.com/qih33333" target="_blank">GitHub</a>
-        <a href="https://www.linkedin.com/in/hao-qi-rice333/?locale=zh_EN" target="_blank">LinkedIn</a>
-        <a href="CV.pdf" target="_blank">CV</a>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <div class="nav-shell">
+      <a class="site-name" href="index.html">Hao Qi</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span><span></span><span></span><span class="sr-only">Open navigation</span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="publications.html">Publications</a>
+        <a href="research.html">Research</a>
+        <a href="background.html">Background</a>
+        <a href="CV.pdf" target="_blank" rel="noopener">CV <span aria-hidden="true">↗</span></a>
       </nav>
     </div>
   </header>
 
-  <section>
-    <h2>About Me</h2>
-    <p>
-    I am currently a research assistant at the 
-    <a href="https://statistics.rice.edu" target="_blank" rel="noopener noreferrer">Department of Statistics</a>, 
-    <a href="https://www.rice.edu" target="_blank" rel="noopener noreferrer">Rice University</a>, 
-    where I am supervised by Dr. Meng Li and Dr. Huixia Judy Wang</a>.
-    I previously completed the Master of Statistics at Rice University. I also earned two Bachelor of Science degrees: one in Mathematics from the 
-    <a href="https://uncw.edu/academics/colleges/cse/departments/math-statistics/?utm_source=math&utm_medium=301&utm_id=REDIR1">Department of Mathematics and Statistics</a>, 
-    <a href="https://uncw.edu" target="_blank" rel="noopener noreferrer">University of North Carolina Wilmington</a>, 
-    and one in Mathematics and Applied Mathematics from the 
-    <a href="https://www.cqwu.edu.cn" target="_blank" rel="noopener noreferrer">Chongqing University of Arts and Sciences</a>.
+  <main id="main-content" class="site-main">
+    <section class="intro-section">
+      <div class="portrait-column">
+        <img class="profile-photo" src="profile.jpg" alt="Portrait of Hao Qi" width="220" height="280">
+        <div class="profile-links" aria-label="Contact and profiles">
+          <a href="mailto:hqi1@charlotte.edu">Email</a>
+          <a href="https://github.com/qih33333" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.linkedin.com/in/hao-qi-rice333/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="CV.pdf" target="_blank" rel="noopener">CV</a>
+        </div>
+      </div>
 
-    <p>
-    My research interests lie at the intersection of statistical learning, time series analysis, and biostatistics. 
-    I am particularly interested in developing predictive models for healthcare applications using real-world medical data, 
-    including electronic health records and physiological time series. I have worked on projects involving the prediction 
-    of acute kidney injury, modeling patient survival outcomes, and the statistical analysis of environmental and economic indicators. 
-    I am passionate about applying rigorous statistical methods to solve practical problems in biomedical and public health domains.
-    </p>
-</section>
-  
+      <div class="intro-copy">
+        <p class="eyebrow">Academic homepage</p>
+        <h1>Hao Qi</h1>
+        <p class="role">Ph.D. Student in Applied Mathematics <span>Statistics Concentration</span></p>
 
-  </section>
+        <div class="about-copy">
+          <p>
+            I am a Ph.D. student in Applied Mathematics (Statistics concentration) at
+            <a href="https://www.charlotte.edu/" target="_blank" rel="noopener">UNC Charlotte</a>, advised by
+            <a href="https://sds.charlotte.edu/people/qingning-zhou/" target="_blank" rel="noopener">Dr. Qingning Zhou</a>.
+            My research interests lie at the intersection of statistical learning, time-series analysis, and biostatistics.
+          </p>
+          <p>
+            Before joining UNC Charlotte, I completed the Master of Statistics at
+            <a href="https://www.rice.edu/" target="_blank" rel="noopener">Rice University</a>, where I worked on
+            longitudinal image prediction and acute kidney injury research with Dr. Huixia Judy Wang and Dr. Meng Li.
+            I also earned B.S. degrees in Mathematics from the
+            <a href="https://uncw.edu/" target="_blank" rel="noopener">University of North Carolina Wilmington</a>
+            and in Mathematics and Applied Mathematics from
+            <a href="https://www.cqwu.edu.cn/" target="_blank" rel="noopener">Chongqing University of Arts and Sciences</a>.
+          </p>
+          <p>
+            I am particularly interested in developing statistical and machine-learning methods for healthcare applications using
+            real-world medical data, including clinical measurements and physiological time series. My previous work includes
+            postoperative risk prediction, longitudinal modeling, and forecasting for financial and small-sample time-series data.
+          </p>
+        </div>
+      </div>
+    </section>
 
-  <section>
-    <h2>Education</h2>
-    <p>
-      Rice University, Master of Statistics, 2024.08–2025.12 <br>
-      University of North Carolina Wilmington, BSc in Mathematics, 2023.08–2024.05 <br>
-      Chongqing University of Arts and Sciences, BSc in Mathematics and Applied Mathematics, 2020.09-2024.06  <br>
-    </p>
-  </section>
+    <section class="home-section" aria-labelledby="interests-title">
+      <div class="section-label"><h2 id="interests-title">Research interests</h2></div>
+      <div class="section-content interest-list">
+        <span>Statistical learning</span>
+        <span>Longitudinal data analysis</span>
+        <span>Biostatistics</span>
+        <span>Time-series forecasting</span>
+        <span>Biomedical machine learning</span>
+      </div>
+    </section>
 
-  <section>
-    <h2>Research Interests</h2>
-    <p> 
-      Machine Learning <br>
-      Statistical Modelling <br>
-      Mathematical Modelling <br>
-      The Applications of Machine Learning to Biomedical Data <br>
-      Time Series <br>
-    </p>
-  </section>
+    <section class="home-section" aria-labelledby="news-title">
+      <div class="section-label"><h2 id="news-title">News</h2></div>
+      <div class="section-content news-list">
+        <article class="news-row">
+          <time datetime="2026-08">Aug 2026</time>
+          <p>Started the Ph.D. program in Applied Mathematics at UNC Charlotte, advised by Dr. Qingning Zhou.</p>
+        </article>
+        <article class="news-row">
+          <time datetime="2026-02">Feb 2026</time>
+          <p>Our paper on tissue perfusion pressure and acute kidney injury appeared in the <em>Journal of Thoracic and Cardiovascular Surgery</em>.</p>
+        </article>
+        <article class="news-row">
+          <time datetime="2025-12">Dec 2025</time>
+          <p>Completed the Master of Statistics degree at Rice University.</p>
+        </article>
+      </div>
+    </section>
 
-  <footer>
-    &copy; 2025 Hao Qi. All rights reserved.
+    <section class="home-section home-links" aria-labelledby="explore-title">
+      <div class="section-label"><h2 id="explore-title">Explore</h2></div>
+      <div class="section-content explore-grid">
+        <a href="publications.html"><strong>Publications</strong><span>Journal, conference, and manuscript work →</span></a>
+        <a href="research.html"><strong>Research</strong><span>Selected projects and experience →</span></a>
+        <a href="background.html"><strong>Background</strong><span>Education, skills, and honors →</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Hao Qi</p>
+    <p>Charlotte, North Carolina · <a href="mailto:hqi1@charlotte.edu">hqi1@charlotte.edu</a></p>
   </footer>
-
+  <script src="script.js"></script>
 </body>
 </html>

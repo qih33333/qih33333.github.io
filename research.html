@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research | Hao Qi</title>
+  <meta name="description" content="Selected research by Hao Qi in longitudinal modeling and acute kidney injury prediction.">
+  <meta name="theme-color" content="#fbfaf7">
+  <link rel="icon" href="profile.jpg" type="image/jpeg">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <div class="nav-shell">
+      <a class="site-name" href="index.html">Hao Qi</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span><span></span><span></span><span class="sr-only">Open navigation</span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="publications.html">Publications</a>
+        <a href="research.html" aria-current="page">Research</a>
+        <a href="background.html">Background</a>
+        <a href="CV.pdf" target="_blank" rel="noopener">CV <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content" class="site-main inner-page">
+    <header class="page-header">
+      <p class="eyebrow">Selected work</p>
+      <h1>Research</h1>
+      <p>Statistical and machine-learning methods for longitudinal and biomedical data.</p>
+    </header>
+
+    <section class="research-list" aria-label="Research projects">
+      <article class="research-item">
+        <div class="research-side">
+          <time>Feb 2026 - Present</time>
+          <span>Rice University</span>
+        </div>
+        <div class="research-body">
+          <h2>Longitudinal Variational Autoencoder for Within-Subject Image Prediction</h2>
+          <p class="supervisor">Supervised by Dr. Huixia Judy Wang</p>
+          <ul>
+            <li>Developed a longitudinal variational autoencoder with a mixed-effects latent backbone and a first-order stochastic transition to model subject-specific temporal dynamics in image sequences.</li>
+            <li>Reformulated the task as prefix-conditioned missing-visit prediction under a sequential latent-variable framework.</li>
+            <li>Derived an ELBO-based objective and evaluated one-step and recursive forecasting performance on longitudinal imaging data.</li>
+          </ul>
+          <p class="tag-line">Variational inference · Longitudinal imaging · Mixed effects</p>
+        </div>
+      </article>
+
+      <article class="research-item">
+        <div class="research-side">
+          <time>Feb - Jul 2025</time>
+          <span>Rice &amp; BCM</span>
+        </div>
+        <div class="research-body">
+          <h2>A Novel Hemodynamic Measure to Assess Risk of Acute Kidney Injury After Cardiac Surgery</h2>
+          <p class="supervisor">Supervised by Dr. Meng Li</p>
+          <ul>
+            <li>Applied univariate and multivariable logistic regression to quantify the association between tissue perfusion pressure and postoperative acute kidney injury.</li>
+            <li>Identified a 38 mm Hg threshold using regression-based risk estimation and evaluated its independence after statistical adjustment.</li>
+            <li>Conducted sensitivity and subgroup analyses stratified by vasoactive inotrope score.</li>
+          </ul>
+          <p class="tag-line">Logistic regression · Risk estimation · Clinical data</p>
+        </div>
+      </article>
+
+      <article class="research-item">
+        <div class="research-side">
+          <time>Jan - Jun 2026</time>
+          <span>Rice University</span>
+        </div>
+        <div class="research-body">
+          <h2>Dynamic Machine Learning for Acute Kidney Injury Prediction</h2>
+          <p class="supervisor">Research Assistant with Dr. Meng Li</p>
+          <ul>
+            <li>Developed rolling-window features from hemodynamics, laboratory measurements, medications, and clinical data.</li>
+            <li>Evaluated XGBoost, random forest, and logistic regression under patient-level data splits.</li>
+            <li>Built calibration-based evaluation metrics and conducted external validation using the MIMIC dataset.</li>
+          </ul>
+          <p class="tag-line">Machine learning · Calibration · External validation</p>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Hao Qi</p>
+    <p><a href="index.html">Home</a> · <a href="mailto:hqi1@charlotte.edu">hqi1@charlotte.edu</a></p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
