@@ -557,15 +557,6 @@ img {
   margin-top: 8px;
 }
 
-.cv-note {
-  margin: 12px 0 0;
-  padding: 18px 21px;
-  border-left: 3px solid var(--accent);
-  background: var(--soft);
-  color: var(--muted);
-  font-size: 0.85rem;
-}
-
 .site-footer {
   width: min(calc(100% - 40px), var(--content));
   margin: 35px auto 0;
